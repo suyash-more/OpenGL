@@ -1,0 +1,1 @@
+## g++ main.c -lglut -lGL -lGLEW -lGLU -o OpenGLExample
