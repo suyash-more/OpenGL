@@ -4,4 +4,4 @@
 
 ####    This is the command for running the C Files
 > Command
-- g++ main.c -lglut -lGL -lGLEW -lGLU -o OpenGLExample
+- g++ {CFileName}.c -lglut -lGL -lGLEW -lGLU -o {OutputFileName}
