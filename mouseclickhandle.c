@@ -32,6 +32,8 @@ else
 steps = abs(dy);
 Xinc = dx/steps;
 Yinc = dy/steps;
+x=x1;
+y=y1;
 putpixel(x,y); //user defined function to plot point
     for (k=0 ;k<steps;k++)
         {
@@ -61,7 +63,7 @@ if(button==GLUT_LEFT_BUTTON && state==GLUT_DOWN)
         {
         glColor3f(1.0, 1.0, 1.0);
         printf("End of the line\n");
-        printf("%d %d %d %d\n",xst,x,yst,y);
+        printf("%d %d %d %d\n",xst,yst,x,y);
         ddaLine(xst,yst,x,y);
         xst=x;
         yst=y;

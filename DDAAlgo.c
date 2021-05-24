@@ -1,10 +1,11 @@
 #include<GL/glut.h>
 #include<stdlib.h>
 #include<stdio.h>
+
 void putpixel(float x, float y)
 {
 glBegin(GL_POINTS);
-glVertex2i(x,y);
+    glVertex2i(x,y);
 glEnd();
 }
 float x1,x2,y1,y2;
@@ -21,6 +22,7 @@ steps = abs(dx);
 }
 else
 steps = abs(dy);
+
 Xinc = dx/steps;
 Yinc = dy/steps;
 
@@ -57,7 +59,7 @@ scanf("%f",&x2);
 printf("Enter the value of y2 : ");
 scanf("%f",&y2);
 glutInit(&argc, argv);
-glutInitDisplayMode (GLUT_SINGLE |
+glutInitDisplayMode (GLUT_SINGLE | 
 GLUT_RGB);
 glutInitWindowSize (500, 500);
 glutInitWindowPosition (100,100);
