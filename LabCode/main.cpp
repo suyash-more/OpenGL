@@ -1,4 +1,6 @@
 //sudo apt-get install cmake libx11-dev xorg-dev libglu1-mesa-dev freeglut3-dev libglew1.5 libglew1.5-dev libglu1-mesa libglu1-mesa-dev libgl1-mesa-glx libgl1-mesa-dev libglfw3-dev libglfw3
+
+
 #include <GL/glew.h>
 #include <GL/glu.h>
 #include <GLFW/glfw3.h>
@@ -58,6 +60,3 @@ int main(void)
 
     exit(EXIT_SUCCESS);
 }
-
-//eklavya
-//sakshi phadke - 9420324462
