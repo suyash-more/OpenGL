@@ -1,0 +1,3 @@
+[submodule "opengl-examples"]
+	path = opengl-examples
+	url = https://github.com/sprintr/opengl-examples.git
