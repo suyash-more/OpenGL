@@ -4,4 +4,6 @@
 
 ####    This is the command for running the C Files
 > Command
-- g++ {CFileName}.c -lglut -lGL -lGLEW -lGLU -o {OutputFileName}
+```sh
+ g++ {CFileName}.c -lglut -lGL -lGLEW -lGLU -o {OutputFileName}
+```
