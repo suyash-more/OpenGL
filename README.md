@@ -7,7 +7,7 @@
 ```sh
  g++ {CFileName}.c -lglut -lGL -lGLEW -lGLU -o {OutputFileName}
 ```
-
+Table : 
 
 |      Assign2-DDA-Bresenham      	| https://github.com/suyash-more/OpenGL/tree/main/Assign2-DDA-Bresenham           	|
 |:-------------------------------:	|---------------------------------------------------------------------------------	|
